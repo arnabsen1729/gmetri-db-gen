@@ -8,8 +8,8 @@ def generate_prompt():
     # some common phrases
     templates = [
         "create an {element}",
-        "make a {element} with {element}",
-        "add a {element} and a {element}"
+        "make a {element} with {element2}",
+        "add a {element} and a {element2}"
     ]
     template = random.choice(templates)
     element1 = random.choice(elements)
